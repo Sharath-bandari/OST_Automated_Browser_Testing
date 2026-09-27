@@ -1,0 +1,46 @@
+AUTOMATED BROWSER TESTING - TEST RESULTS
+========================================
+
+Project: Automated Browser Testing
+Technology: Python, Flask, Selenium, SQLite, Microsoft Edge
+
+
+TEST CASE 1: LOGIN TEST
+-----------------------
+Test: Verify login with valid username and password
+
+Username: admin
+Password: admin123
+
+Expected Result:
+User should successfully login and reach Student Management page.
+
+Actual Result:
+Login was successful.
+
+Status: PASS
+
+
+TEST CASE 2: CREATE STUDENT TEST
+--------------------------------
+Test: Verify that a new student can be added.
+
+Student Name: Selenium Student
+Student Email: selenium@gmail.com
+
+Expected Result:
+Student should be added and displayed in the Student List.
+
+Actual Result:
+Student was successfully added and displayed.
+
+Status: PASS
+
+
+SUMMARY
+-------
+Total Test Cases: 2
+Passed: 2
+Failed: 0
+
+Overall Result: PASS
